@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang chủ</title>
+
+    <!-- <link rel="stylesheet" href="nhapkho.css"> -->
+    <link rel="stylesheet" href="trangchu.css">
+</head>
+
+<body>
+    <div class="header">
+        <img src="../1BaiTapNHhom/image/logo.png" alt="">
+        <!-- <h1>Trang chủ</h1> -->
+    </div>
+    <div class="container">
+        <div class="container-banner">
+            <div class="banner">
+                <div class="slide">
+                    <img src="../1BaiTapNHhom/image/banner1.png" alt="">
+                    <img src="../1BaiTapNHhom/image/banner2.png" alt="">
+                    <img src="../1BaiTapNHhom/image/banner3.png" alt="">
+                </div>
+                <button onclick="next()"><img src="../1BaiTapNHhom/image/next.png" alt=""></button>
+                <button onclick="back()" style="left: 5px"><img src="../1BaiTapNHhom/image/back.png" alt=""></button>
+            </div>
+        </div>
+        <div class="container-item">
+            <div class="danhmuc">
+                <div class="listItem">
+                    <div class="img">
+                        <img src="../1BaiTapNHhom/img.trangchu/sale-removebg-preview.png" alt="">
+                    </div>
+                    <div class="text">
+                        <a href="#">Khung sale</a>
+                    </div>
+                </div>
+                <div class="listItem">
+                    <div class="img">
+                        <img src="../1BaiTapNHhom/img.trangchu/freeship.png" alt="">
+                    </div>
+                    <div class="text">
+                        <a href="#">Free ship</a>
+                    </div>
+                </div>
+                <div class="listItem">
+                    <div class="img">
+                        <img src="../1BaiTapNHhom/img.trangchu/giare.png" alt=""">
+                    </div>
+                    <div class=" text">
+                        <a href="#">Sản phẩm giá rẻ</a>
+                    </div>
+                </div>
+                <div class="listItem">
+                    <div class="img">
+                        <img src="../1BaiTapNHhom/img.trangchu/magiamgia.png" alt="">
+                    </div>
+                    <div class="text">
+                        <a href="#">Mã giảm giá</a>
+                    </div>
+                </div>
+                <div class="listItem">
+                    <div class="img">
+                        <img src="../1BaiTapNHhom/img.trangchu/sieugiamgia-removebg-preview.png" alt="">
+                    </div>
+                    <div class="text">
+                        <a href="#">Siêu giảm giá</a>
+                    </div>
+                </div>
+                <div class="listItem">
+                    <div class="img">
+                        <img src="../1BaiTapNHhom/img.trangchu/1k.png" alt="">
+                    </div>
+                    <div class="text">
+                        <a href="#">Sản phẩm 1k</a>
+                    </div>
+                </div>
+                <div class="listItem">
+                    <div class="img">
+                        <img src="../1BaiTapNHhom/img.trangchu/vongquay.png" alt="">
+                    </div>
+                    <div class="text">
+                        <a href="#">Quay may mắn</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="containerDanhmuc">
+            <div class="tieude">
+                <h3 class="phanloai">Phân loại</h3>
+            </div>
+            <div class="phanloaisp">
+                <div class="cot">
+                    <div class="hang">
+                        <div class="img"><img src="../1BaiTapNHhom/img.trangchu/trasua-removebg-preview.png" alt="">
+                        </div>
+                        <div class="text">
+                            <h4>Trà sữa</h4>
+                        </div>
+                    </div>
+                    <div class="hang">
+                        <div class="img"><img src="../1BaiTapNHhom/img.trangchu/garan.png" alt=""
+                                style="padding: 0 21px"></div>
+                        <div class="text">
+                            <h4>Gà rán</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="cot">
+                    <div class="hang">
+                        <div class="img"><img src="../1BaiTapNHhom/img.trangchu/banhmi-removebg-preview.png" alt=""
+                                style="height: 55px;padding: 0 20px"></div>
+                        <div class="text">
+                            <h4>Bánh mì</h4>
+                        </div>
+                    </div>
+                    <div class="hang">
+                        <div class="img"><img src="../1BaiTapNHhom/img.trangchu/mi-removebg-preview.png" alt=""
+                                style="height: 90px; padding: 0 17px"></div>
+                        <div class="text">
+                            <h4>Mì ý</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="cot">
+                    <div class="hang">
+                        <div class="img"><img src="../1BaiTapNHhom/img.trangchu/pizza-removebg-preview.png" alt=""
+                                style="height: 50px; padding: 0 30px"></div>
+                        <div class="text">
+                            <h4>Pizza </h4>
+                        </div>
+                    </div>
+                    <div class="hang">
+                        <div class="img"><img src="../1BaiTapNHhom/img.trangchu/hamburger-removebg-preview.png" alt=""
+                                style="height: 80px; padding: 0 18px"></div>
+                        <div class="text">
+                            <h4>Hamburger</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="cot">
+                    <div class="hang">
+                        <div class="img"><img src="../1BaiTapNHhom/img.trangchu/khoaitaychien-removebg-preview.png"
+                                alt=""></div>
+                        <div class="text">
+                            <h4>Khoai tây chiên</h4>
+                        </div>
+                    </div>
+                    <div class="hang">
+                        <div class="img"><img src="../1BaiTapNHhom/img.trangchu/xucxich-removebg-preview.png" alt="">
+                        </div>
+                        <div class="text">
+                            <h4>Xúc xích</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="cot">
+                    <div class="hang">
+                        <div class="img"><img src="../1BaiTapNHhom/img.trangchu/thucuong-removebg-preview.png" alt="">
+                        </div>
+                        <div class="text">
+                            <h4>Thức uống</h4>
+                        </div>
+                    </div>
+                    <div class="hang">
+                        <div class="img"><img src="../1BaiTapNHhom/img.trangchu/bacham-removebg-preview.png" alt=""
+                                style="height: 45px"></div>
+                        <div class="text">
+                            <h4>Khác</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-sp">
+            <div class="tieude">
+                <h3>Sản phẩm hôm nay</h3>
+            </div>
+            <div class="hang">
+                <div class="cot">
+                    <div class="sp">
+                        <img src="https://images.foody.vn/res/g97/961917/prof/s280x175/file_restaurant_photo_uxrf_16343-4e0ef002-211016213341.jpg" alt="">
+                    </div>
+                    <div class="tensp">
+
+                    </div>
+                    <div class="gia">
+
+                    </div>
+                    <div class="khuyenmai">
+
+                    </div>
+                </div>
+                <div class="cot">
+                    <div class="sp">
+
+                    </div>
+                    <div class="tensp">
+
+                    </div>
+                    <div class="gia">
+
+                    </div>
+                    <div class="khuyenmai">
+
+                    </div>
+                </div>
+                <div class="cot">
+                    <div class="sp">
+
+                    </div>
+                    <div class="tensp">
+
+                    </div>
+                    <div class="gia">
+
+                    </div>
+                    <div class="khuyenmai">
+
+                    </div>
+                </div>
+                <div class="cot">
+                    <div class="sp">
+
+                    </div>
+                    <div class="tensp">
+
+                    </div>
+                    <div class="gia">
+
+                    </div>
+                    <div class="khuyenmai">
+
+                    </div>
+                </div>
+            </div>
+            <div class="hang">
+                <div class="cot">
+                    <div class="sp">
+
+                    </div>
+                    <div class="tensp">
+
+                    </div>
+                    <div class="gia">
+
+                    </div>
+                    <div class="khuyenmai">
+
+                    </div>
+                </div>
+                <div class="cot">
+                    <div class="sp">
+
+                    </div>
+                    <div class="tensp">
+
+                    </div>
+                    <div class="gia">
+
+                    </div>
+                    <div class="khuyenmai">
+
+                    </div>
+                </div>
+                <div class="cot">
+                    <div class="sp">
+
+                    </div>
+                    <div class="tensp">
+
+                    </div>
+                    <div class="gia">
+
+                    </div>
+                    <div class="khuyenmai">
+
+                    </div>
+                </div>
+                <div class="cot">
+                    <div class="sp">
+
+                    </div>
+                    <div class="tensp">
+
+                    </div>
+                    <div class="gia">
+
+                    </div>
+                    <div class="khuyenmai">
+
+                    </div>
+                </div>
+            </div>
+            <div class="hang">
+                <div class="cot">
+                    <div class="sp">
+
+                    </div>
+                    <div class="tensp">
+
+                    </div>
+                    <div class="gia">
+
+                    </div>
+                    <div class="khuyenmai">
+
+                    </div>
+                </div>
+                <div class="cot">
+                    <div class="sp">
+
+                    </div>
+                    <div class="tensp">
+
+                    </div>
+                    <div class="gia">
+
+                    </div>
+                    <div class="khuyenmai">
+
+                    </div>
+                </div>
+                <div class="cot">
+                    <div class="sp">
+
+                    </div>
+                    <div class="tensp">
+
+                    </div>
+                    <div class="gia">
+
+                    </div>
+                    <div class="khuyenmai">
+
+                    </div>
+                </div>
+                <div class="cot">
+                    <div class="sp">
+
+                    </div>
+                    <div class="tensp">
+
+                    </div>
+                    <div class="gia">
+
+                    </div>
+                    <div class="khuyenmai">
+
+                    </div>
+                </div>
+            </div>
+            <div class="hang">
+                <div class="cot">
+                    <div class="sp">
+
+                    </div>
+                    <div class="tensp">
+
+                    </div>
+                    <div class="gia">
+
+                    </div>
+                    <div class="khuyenmai">
+
+                    </div>
+                </div>
+                <div class="cot">
+                    <div class="sp">
+
+                    </div>
+                    <div class="tensp">
+
+                    </div>
+                    <div class="gia">
+
+                    </div>
+                    <div class="khuyenmai">
+
+                    </div>
+                </div>
+                <div class="cot">
+                    <div class="sp">
+
+                    </div>
+                    <div class="tensp">
+
+                    </div>
+                    <div class="gia">
+
+                    </div>
+                    <div class="khuyenmai">
+
+                    </div>
+                </div>
+                <div class="cot">
+                    <div class="sp">
+
+                    </div>
+                    <div class="tensp">
+
+                    </div>
+                    <div class="gia">
+
+                    </div>
+                    <div class="khuyenmai">
+
+                    </div>
+                </div>
+            </div>
+            <div class="hang">
+                <div class="cot">
+                    <div class="sp">
+
+                    </div>
+                    <div class="tensp">
+
+                    </div>
+                    <div class="gia">
+
+                    </div>
+                    <div class="khuyenmai">
+
+                    </div>
+                </div>
+                <div class="cot">
+                    <div class="sp">
+
+                    </div>
+                    <div class="tensp">
+
+                    </div>
+                    <div class="gia">
+
+                    </div>
+                    <div class="khuyenmai">
+
+                    </div>
+                </div>
+                <div class="cot">
+                    <div class="sp">
+
+                    </div>
+                    <div class="tensp">
+
+                    </div>
+                    <div class="gia">
+
+                    </div>
+                    <div class="khuyenmai">
+
+                    </div>
+                </div>
+                <div class="cot">
+                    <div class="sp">
+
+                    </div>
+                    <div class="tensp">
+
+                    </div>
+                    <div class="gia">
+
+                    </div>
+                    <div class="khuyenmai">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="footer" style="padding: 100px">
+
+    </div> -->
+
+
+    <script src="trangchu.js"></script>
+</body>
+
+</html>

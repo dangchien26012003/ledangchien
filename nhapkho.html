@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nhập kho</title>
+    <link rel="stylesheet" href="nhapkho.css">
+</head>
+
+<body>
+    <div class="header">
+        <img src="../1BaiTapNHhom/image/logo.png" alt="">
+        <h1>Quản lí kho</h1>
+    </div>
+    <div class="container">
+        <div class="body-left">
+            <a href="#">
+                <div>
+                    <img src="../1BaiTapNHhom/image/banhang2.png" alt="bán hàng">
+                    <h4 >Bán hàng</h4>
+                </div>
+            </a>
+            <a href="../1BaiTapNHhom/trangchu.html">
+                <div>
+                    <img src="../1BaiTapNHhom/image/trangchu2.png" alt="Trang chủ">
+                    <h4>Trang chủ</h4>
+                </div>
+            </a>
+            <a href="#">
+                <div>
+                    <img src="../1BaiTapNHhom/image/taodon2.png" alt="Trang chủ">
+                    <h4>Tạo đơn hàng</h4>
+                </div>
+            </a>
+            <a href="#">
+                <div>
+                    <img src="../1BaiTapNHhom/image/sanpham2.png" alt="Trang chủ">
+                    <h4>Sản phẩm</h4>
+                </div>
+            </a>
+            <a href="#">
+                <div style="padding-left: 3px">
+                    <img src="../1BaiTapNHhom/image/nhanvien.png" alt="Trang chủ" style="height: 35px; ">
+                    <h4>Nhân viên</h4>
+                </div>
+            </a>
+            <a href="#" >
+                <div style="background-color: rgba(72, 191, 227, 0.996);">
+                    <img src="../1BaiTapNHhom/image/nhapkho2.png" alt="Trang chủ">
+                    <h4 style="color: white">Nhập kho</h4>
+                </div>
+            </a>
+            <a href="#">
+                <div>
+                    <img src="../1BaiTapNHhom/image/tồn kho2.png" alt="Trang chủ">
+                    <h4>Tồn kho</h4>
+                </div>
+            </a>
+            <a href="#">
+                <div>
+                    <img src="../1BaiTapNHhom/image/doanh số 2.png" alt="Trang chủ">
+                    <h4>Doanh số</h4>
+                </div>
+            </a>
+            <a href="#">
+                <div>
+                    <img src="../1BaiTapNHhom/image/thuchi2.png" alt="Trang chủ">
+                    <h4>Thu chi</h4>
+                </div>
+            </a>
+            <a href="#">
+                <div>
+                    <img src="../1BaiTapNHhom/image/lợi nhuận2.png" alt="Trang chủ">
+                    <h4>Lợi nhuận</h4>
+                </div>
+            </a>
+        </div>
+        <div class="body-right">
+            <div class="right1">
+                <div class="right1-contain" style="background-color: rgb(248, 101, 101);">
+                    <div class="img"><img src="../1BaiTapNHhom/image/tienbanhang.png" alt=""></div>
+                    <div class="text">
+                        <span>Tiền bán hàng</span>
+                        <br>
+                        <span style="font-weight: bold;">0</span>
+                        <!-- <input type="text" id="" readonly> -->
+                    </div>
+                </div>
+                <div class="right1-contain" style="background-color: rgb(101, 101, 247);">
+                    <div class="img"><img src="../1BaiTapNHhom/image/sodonhang.png" alt=""></div>
+                    <div class="text">
+                        <div class="text2-1">
+                            <span>Số đơn hàng</span>
+                            <br>
+                            <span style="font-weight: bold;">0</span>
+                            <!-- <input type="text" id="" readonly> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="right1-contain" style="background-color: rgb(65, 190, 177);">
+                    <div class="img"><img src="../1BaiTapNHhom/image/sua.png" alt=""></div>
+                    <div class="text">
+                        <span>Đã sửa trong ngày</span>
+                        <br>
+                        <input type="text" id="sua" readonly>
+                    </div>
+                </div>
+                <div class="right1-contain" style="background-color: rgb(98, 212, 57);">
+                    <div class="img"><img src="../1BaiTapNHhom/image/xoa.png" alt=""></div>
+                    <div class="text">
+                        <span>Đã xoá trong ngày</span>
+                        <br>
+                        <input type="text" id="xoa" readonly>
+                    </div>
+                </div>
+            </div>
+            <div class="right2">
+                <div>
+                    <div class="top">
+                        <span>Thông tin kho</span>
+                    </div>
+                    <div class="bottom">
+                        <div class="tongkho">
+                            <span>Tổng sản phẩm</span>
+                            <input type="text" name="" id="tongkho" readonly>
+                        </div>
+                        <div class="hethang">
+                            <span>Hết hàng</span>
+                            <input type="text" name="" id="hethang" readonly>
+                        </div>
+                        <div class="saphethang">
+                            <span>Sắp hết hàng</span>
+                            <input type="text" name="" id="saphethang" readonly>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="top">
+                        <span>Thông tin sản phẩm</span>
+                    </div>
+                    <div class="bottom">
+                        <div class="notedate">
+                            <span>Chưa nhập date</span>
+                            <input type="text" name="" id="notdate" readonly>
+                        </div>
+                        <div class="notgiaban">
+                            <span>Chưa nhập giá bán</span>
+                            <input type="text" name="" id="notgiaban" readonly>
+                        </div>
+                        <div class="notgiamua">
+                            <span>Chưa nhập giá mua</span>
+                            <input type="text" name="" id="notgiamua" readonly>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="right3">
+                <div class="table">
+                    <table border=1 cellspacing=0 id="render">
+                        <tr>
+                            <th>STT</th>
+                            <th>Mã SP</th>
+                            <th>Tên SP</th>
+                            <th>Số Lượng</th>
+                            <th>Giá Mua</th>
+                            <th>Giá Bán</th>
+                            <th>Date</th>
+                            <th>Ngày Nhập</th>
+                            <th>Chỉnh Sửa</th>
+                        </tr>
+                    </table>
+                </div>
+                
+                <div class="input">
+                    <h1>Thêm sản phẩm</h1>
+                    <table>
+                        <tr>
+                            <td>Mã sản phẩm: </td>
+                            <td><input type="number" id="ma" placeholder="Nhập mã sản phẩm:"></td>
+                        </tr>
+                        <tr>
+                            <td>Tên sản phẩm: </td>
+                            <td><input type="text" id="ten" placeholder="Nhập tên sản phẩm:"></td>
+                        </tr>
+                        <tr>
+                            <td>Số lượng: </td>
+                            <td><input type="number" id="soluong" placeholder="Nhập số lượng:" min="0"></td>
+                        </tr>
+                        <tr>
+                            <td>Giá mua: </td>
+                            <td><input type="number" id="giamua" placeholder="Nhập giá mua:" min="0"></td>
+                        </tr>
+                        <tr>
+                            <td>Giá bán: </td>
+                            <td><input type="number" id="giaban" placeholder="Nhập giá bán:" min="0"></td>
+                        </tr>
+                        <tr>
+                            <td>Date: </td>
+                            <td><input type="date" id="date" class="date1"></td>
+                        </tr>
+                        <tr>
+                            <td>Ngày nhập: </td>
+                            <td><input type="date" id="ngaynhap" class="date2"></td>
+                        </tr>
+                    </table>
+                    <button onclick="submit()">Submit</button>
+                </div>
+
+            </div>
+            <div class="right4"></div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="nhapkho.js"></script>
+</body>
+
+</html>
